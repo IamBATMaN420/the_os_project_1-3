@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1st Project</title>
+    <link rel="stylesheet" href="loco.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -14,6 +15,8 @@
   <body>
     <div id="main">
       <div id="hero">
+        <div id="minicircle"></div>
+
         <!-- Navigation -->
         <div id="nav">
           <a
@@ -101,12 +104,9 @@
         </div>
       </div>
       <div id="about">
-        <img
-          src="./profile-pic (1).png"
-          alt=""
-          width="250px"
-          style="padding-right: 30px; margin-bottom: 80px; margin-left: -50px"
-        />
+        <div class="profile-pic"><img src="./profile-pic (1).png" alt="" width="250px"
+          style="padding-right: 30px; margin-bottom: 80px; margin-left: -50px" /></div>
+        
         <div id="textabout">
           <h5 style="margin-left: -20px">(About me)</h5>
           <p style="margin-left: -20px">
@@ -157,7 +157,7 @@
         </div>
       </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
